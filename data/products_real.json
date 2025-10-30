@@ -1,0 +1,363 @@
+{
+  "brand_info": {
+    "name": "Playcat (플레이캣)",
+    "philosophy": "행동풍부화와 고양이의 행복은 정비례 관계",
+    "specialty": "동물행동학 기반 고양이 전용 제품",
+    "website": "https://www.playcat.kr",
+    "shop": "https://playcat3.cafe24.com",
+    "contact": {
+      "kakao": "카카오톡 무료 견적 상담",
+      "naver_cafe": "네이버 카페 운영"
+    }
+  },
+
+  "products": [
+    {
+      "id": "wall_square_basic",
+      "name": "벽 사각 캣워커",
+      "category": "wall_walker",
+      "size": {"width": 30, "depth": 30, "height": 5},
+      "base_price": 28000,
+      "description": "벽에 부착하는 기본 발판, 타공 불필요한 설치 방식",
+      "usage": "이동 동선, 오르내리기용",
+      "material": "원목"
+    },
+    {
+      "id": "wall_square_wide",
+      "name": "벽 사각 캣워커 와이드",
+      "category": "wall_walker",
+      "size": {"width": 50, "depth": 40, "height": 5},
+      "base_price": 50000,
+      "original_price": 100000,
+      "discount": "50% 할인",
+      "description": "넓은 발판으로 여러 마리 고양이도 함께 사용 가능",
+      "usage": "휴식 공간, 다묘 가정용",
+      "material": "원목"
+    },
+    {
+      "id": "wall_cloud_bridge_2tier",
+      "name": "벽 구름다리 2단",
+      "category": "wall_walker",
+      "size": {"width": 60, "depth": 30},
+      "base_price": 110000,
+      "description": "2단 구름다리 형태의 벽 발판",
+      "usage": "이동 동선, 놀이 공간",
+      "material": "원목"
+    },
+    {
+      "id": "wall_transparent_hammock_1cat",
+      "name": "벽 투명 해먹 (1마리용)",
+      "category": "wall_walker",
+      "size": {"width": 50, "depth": 35},
+      "base_price": 120000,
+      "description": "투명 아크릴 소재의 해먹, 고양이가 누워있는 모습 관찰 가능",
+      "usage": "휴식 공간, 관찰용",
+      "material": "아크릴+원목"
+    },
+    {
+      "id": "wall_scratcher_tower_180",
+      "name": "벽 세로 스크레쳐 타워 180cm",
+      "category": "scratcher",
+      "size": {"width": 30, "depth": 30, "height": 180},
+      "base_price": 160000,
+      "description": "벽에 부착하는 세로형 스크레처, 180cm 높이",
+      "usage": "발톱 관리, 세로 스트레칭",
+      "material": "원목+마"
+    },
+    {
+      "id": "ceiling_transparent_square_80",
+      "name": "천장 투명 사각 터널 80cm",
+      "category": "ceiling_walker",
+      "size": {"width": 80, "depth": 30, "height": 20},
+      "base_price": 160000,
+      "description": "천장에 부착하는 투명 터널형 통로",
+      "usage": "천장 이동 동선, 관찰용",
+      "material": "아크릴+원목"
+    },
+    {
+      "id": "ceiling_transparent_hammock_1cat",
+      "name": "천장 투명 해먹 (1마리용)",
+      "category": "ceiling_walker",
+      "size": {"width": 50, "depth": 35},
+      "base_price": 130000,
+      "variant_price": 140000,
+      "description": "천장에 부착하는 투명 해먹",
+      "usage": "휴식 공간, 전망대",
+      "material": "아크릴+원목"
+    },
+    {
+      "id": "ceiling_cloud_bridge_2tier",
+      "name": "천장 구름다리 2단",
+      "category": "ceiling_walker",
+      "size": {"width": 100, "depth": 30},
+      "base_price": 170000,
+      "variant_price": 190000,
+      "description": "천장에 부착하는 2단 구름다리",
+      "usage": "천장 이동 동선",
+      "material": "원목"
+    },
+    {
+      "id": "ceiling_aircon_bridge_2m",
+      "name": "천장 에어컨 다리 2M",
+      "category": "ceiling_walker",
+      "size": {"width": 200, "depth": 30},
+      "base_price": 250000,
+      "variant_price": 270000,
+      "description": "에어컨과 벽을 연결하는 긴 다리, 2미터",
+      "usage": "에어컨 접근용, 긴 이동 통로",
+      "material": "원목"
+    },
+    {
+      "id": "cattower_wooden_pole_wide",
+      "name": "원목 캣폴 타워 와이드",
+      "category": "cat_tower",
+      "size": {"width": 60, "depth": 60, "height": 180},
+      "base_price": 400000,
+      "description": "바닥 설치형 대형 원목 캣타워",
+      "usage": "종합 놀이터, 스크래처",
+      "material": "원목+마"
+    },
+    {
+      "id": "cattower_wooden_pole_mini",
+      "name": "원목 캣폴 타워 미니",
+      "category": "cat_tower",
+      "size": {"width": 40, "depth": 40, "height": 120},
+      "base_price": 270000,
+      "description": "바닥 설치형 중형 원목 캣타워",
+      "usage": "스크래처, 놀이 공간",
+      "material": "원목+마"
+    },
+    {
+      "id": "cattower_scratcher_4tier",
+      "name": "원목 스크레쳐 캣타워 4단",
+      "category": "cat_tower",
+      "size": {"width": 50, "depth": 50, "height": 150},
+      "base_price": 299000,
+      "description": "4단 구조의 스크래처 타워",
+      "usage": "발톱 관리, 계단식 놀이",
+      "material": "원목+마"
+    },
+    {
+      "id": "cattower_doorframe_scratcher",
+      "name": "문틀 스크래처 캣폴",
+      "category": "cat_tower",
+      "size": {"width": 30, "depth": 30, "adjustable_height": true},
+      "base_price": 78000,
+      "description": "문틀에 설치하는 스크래처 기둥",
+      "usage": "발톱 관리, 공간 절약형",
+      "material": "원목+마"
+    },
+    {
+      "id": "furniture_living_table_120",
+      "name": "원목 거실 테이블 120cm x 60cm",
+      "category": "human_furniture",
+      "size": {"width": 120, "depth": 60, "height": 45},
+      "base_price": 210000,
+      "sale_price": 69000,
+      "description": "집사용 원목 거실 테이블",
+      "usage": "집사 가구",
+      "material": "원목"
+    },
+    {
+      "id": "consumable_safety_carpet",
+      "name": "안전 카펫 리필",
+      "category": "consumable",
+      "base_price": 8000,
+      "description": "발판에 부착하는 미끄럼 방지 카펫",
+      "usage": "안전성 강화, 소모품",
+      "material": "카펫"
+    },
+    {
+      "id": "consumable_drywall_screw",
+      "name": "석고보드 천장 나사",
+      "category": "consumable",
+      "base_price": 800,
+      "description": "석고보드 천장용 설치 나사",
+      "usage": "설치 부품",
+      "material": "금속"
+    },
+    {
+      "id": "consumable_concrete_screw",
+      "name": "콘크리트 벽/천장 나사",
+      "category": "consumable",
+      "base_price": 300,
+      "description": "콘크리트용 설치 나사",
+      "usage": "설치 부품",
+      "material": "금속"
+    },
+    {
+      "id": "goods_tshirt",
+      "name": "고양이 테마 티셔츠",
+      "category": "goods",
+      "base_price": 22000,
+      "description": "플레이캣 로고 티셔츠",
+      "usage": "굿즈",
+      "material": "면"
+    },
+    {
+      "id": "goods_keychain_ncnl",
+      "name": "NCNL 로고 키링",
+      "category": "goods",
+      "base_price": 2000,
+      "variant_price": 4900,
+      "description": "NO CAT NO LIFE 로고 키링",
+      "usage": "굿즈",
+      "material": "금속"
+    },
+    {
+      "id": "goods_shopping_bag",
+      "name": "쇼핑백",
+      "category": "goods",
+      "base_price": 500,
+      "description": "플레이캣 쇼핑백",
+      "usage": "포장",
+      "material": "종이"
+    }
+  ],
+
+  "installation_services": {
+    "description": "출장 설치 서비스 제공",
+    "base_fee": 100000,
+    "per_product_fee": 5000,
+    "regional_surcharge": {
+      "서울": 0,
+      "경기": 20000,
+      "인천": 30000,
+      "강원": 50000,
+      "충청": 50000,
+      "경상": 80000,
+      "전라": 80000,
+      "제주": 150000
+    },
+    "notes": [
+      "출장 설치 시 업체 소독 필수",
+      "플레이캣 캣워커 설치 교육 제공",
+      "타공 불필요한 설치 방식 강조"
+    ],
+    "education": "설치 교육 프로그램 운영 (2022-08-09 공지)"
+  },
+
+  "shipping_fees": {
+    "기본": 6000,
+    "제주": 24000,
+    "도서산간": 12000
+  },
+
+  "material_info": {
+    "목재": "친환경 원목 사용, 타공 불필요한 설치 방식",
+    "투명소재": "고품질 아크릴, 고양이 관찰 가능",
+    "스크래처": "천연 마 소재, 발톱 관리에 최적"
+  },
+
+  "quote_process": {
+    "step1": "카카오톡으로 무료 견적 상담 신청",
+    "step2": "공간 사진 및 고양이 정보 제공",
+    "step3": "전문가가 맞춤 설계 및 견적 제공",
+    "step4": "상담 후 주문 진행",
+    "required_info": [
+      "설치 공간 사진 (벽, 천장)",
+      "공간 크기 (가로, 세로, 천장 높이)",
+      "고양이 마릿수, 나이, 체중, 성격",
+      "벽 재질 (콘크리트, 석고보드 등)",
+      "원하는 제품 색상",
+      "특별한 요구사항"
+    ]
+  },
+
+  "color_options": {
+    "wood": {"name": "원목", "price_multiplier": 1.0},
+    "wood_transparent": {"name": "원목+투명", "price_multiplier": 1.0},
+    "white": {"name": "화이트", "price_multiplier": 1.2},
+    "white_transparent": {"name": "화이트+투명", "price_multiplier": 1.2},
+    "pastel_brown": {"name": "파스텔 브라운", "price_multiplier": 1.1},
+    "pastel_gray": {"name": "파스텔 그레이", "price_multiplier": 1.1},
+    "pastel_ivory": {"name": "파스텔 아이보리", "price_multiplier": 1.1},
+    "pastel_pink": {"name": "파스텔 핑크", "price_multiplier": 1.1}
+  },
+
+  "design_principles": {
+    "behavior_enrichment": "고양이의 자연스러운 행동 패턴 존중",
+    "safety_first": "안전성을 최우선으로 고려한 설계",
+    "no_drilling": "타공 불필요한 설치 방식으로 벽 손상 최소화",
+    "customization": "각 고양이의 특성에 맞춘 맞춤 설계"
+  },
+
+  "recommended_spacing": {
+    "wall_walker_vertical": "30-40cm (천천히 걸어 올라갈 수 있는 간격)",
+    "wall_walker_horizontal": "40-60cm",
+    "minimum_to_ceiling": "건강한 성묘 기준 7-10개 발판",
+    "senior_cats": "간격을 더 좁게, 10-15개 발판",
+    "heavy_cats": "5kg 이상: 간격 최소화, 안전카펫 필수"
+  },
+
+  "multi_cat_guidelines": {
+    "2마리": "오르내리는 곳 최소 2곳 이상 필요",
+    "3마리 이상": "독립적인 동선 2개 이상 구성",
+    "사이 안좋은 고양이": "시야가 닿지 않는 별도 영역 설계"
+  },
+
+  "breed_specific_tips": {
+    "먼치킨": "짧은 다리 고려, 발판 간격 최소화",
+    "메인쿤": "대형묘, 넓은 발판 및 튼튼한 구조 필요",
+    "스코티시폴드": "관절 문제 고려, 완만한 경사로",
+    "페르시안": "점프력이 약함, 계단식 구조 권장",
+    "벵갈": "활동량 많음, 복잡한 동선과 놀이 요소 추가"
+  },
+
+  "age_specific_tips": {
+    "새끼고양이": "성장을 고려한 확장 가능한 설계",
+    "성묘": "활동량에 맞춘 표준 설계",
+    "노령묘": "관절 보호를 위한 완만한 경사, 낮은 간격"
+  },
+
+  "special_considerations": {
+    "비만묘": "체중 지지를 위한 튼튼한 구조, 안전카펫 필수",
+    "관절 문제": "수의사 상담 후 낮은 높이로 설계",
+    "시각 장애": "익숙한 동선 유지, 안전 우선",
+    "청각 장애": "시각적 자극 제공, 안전한 환경"
+  },
+
+  "faq": [
+    {
+      "question": "타공을 하지 않아도 되나요?",
+      "answer": "플레이캣은 타공 불필요한 설치 방식을 강조합니다. 벽 손상을 최소화하면서도 안전하게 설치할 수 있습니다."
+    },
+    {
+      "question": "설치는 어떻게 하나요?",
+      "answer": "출장 설치 서비스를 제공합니다. 전문 설치팀이 방문하여 설치하며, 설치 교육도 제공됩니다."
+    },
+    {
+      "question": "견적은 어떻게 받나요?",
+      "answer": "카카오톡으로 무료 견적 상담을 신청하시면, 공간 사진과 고양이 정보를 바탕으로 맞춤 견적을 제공해드립니다."
+    },
+    {
+      "question": "어떤 재료를 사용하나요?",
+      "answer": "친환경 원목과 고품질 아크릴을 사용합니다. 스크래처는 천연 마 소재입니다."
+    },
+    {
+      "question": "몇 마리까지 사용 가능한가요?",
+      "answer": "고양이 마릿수에 맞춰 맞춤 설계가 가능합니다. 2마리 이상은 독립적인 동선을 고려하여 설계합니다."
+    },
+    {
+      "question": "안전한가요?",
+      "answer": "안전성을 최우선으로 고려합니다. 안전 카펫, 적절한 간격, 튼튼한 구조로 설계됩니다."
+    },
+    {
+      "question": "반품이나 A/S는 어떻게 하나요?",
+      "answer": "게시판의 공지사항을 참고하시거나 카카오톡 상담을 통해 문의해주세요."
+    }
+  ],
+
+  "community": {
+    "notice_board": "공지사항 게시판 운영",
+    "review_board": "설치 후기 게시판",
+    "faq_board": "자주 묻는 질문",
+    "naver_cafe": "네이버 카페 커뮤니티"
+  },
+
+  "philosophy_details": {
+    "ncnl": "NO CAT NO LIFE - 고양이 없는 삶은 상상할 수 없다",
+    "roadmap": "고양이 행복을 위한 로드맵 제공",
+    "tnr_support": "길고양이 중성화(TNR) 사업 지원"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "products": [
+    {
+      "id": "wall_walker_30",
+      "name": "벽 캣워커 30cm",
+      "category": "wall_walker",
+      "size": {"width": 30, "depth": 30, "height": 5},
+      "base_price": 35000,
+      "description": "벽에 부착하는 기본 발판",
+      "usage": "이동 동선, 오르내리기용"
+    },
+    {
+      "id": "wall_walker_40",
+      "name": "벽 캣워커 40cm",
+      "category": "wall_walker",
+      "size": {"width": 40, "depth": 30, "height": 5},
+      "base_price": 40000,
+      "description": "벽에 부착하는 넓은 발판",
+      "usage": "중간 휴식 공간"
+    },
+    {
+      "id": "ceiling_walker_60",
+      "name": "천장 캣워커 60cm",
+      "category": "ceiling_walker",
+      "size": {"width": 60, "depth": 30, "height": 5},
+      "base_price": 55000,
+      "description": "천장에 부착하는 이동 통로",
+      "usage": "천장 이동 동선"
+    },
+    {
+      "id": "ceiling_walker_80",
+      "name": "천장 캣워커 80cm",
+      "category": "ceiling_walker",
+      "size": {"width": 80, "depth": 30, "height": 5},
+      "base_price": 65000,
+      "description": "천장에 부착하는 긴 이동 통로",
+      "usage": "천장 이동 동선, 여러 마리용"
+    },
+    {
+      "id": "rest_spot_circle",
+      "name": "원형 휴식처",
+      "category": "rest_spot",
+      "size": {"diameter": 40, "height": 5},
+      "base_price": 50000,
+      "description": "원형 휴식 공간",
+      "usage": "휴식, 관찰 포인트"
+    },
+    {
+      "id": "rest_spot_square",
+      "name": "사각 휴식처",
+      "category": "rest_spot",
+      "size": {"width": 50, "depth": 40, "height": 5},
+      "base_price": 55000,
+      "description": "사각형 휴식 공간",
+      "usage": "휴식, 관찰 포인트"
+    },
+    {
+      "id": "scratcher_tower_120",
+      "name": "스크레처 타워 120cm",
+      "category": "scratcher",
+      "size": {"width": 30, "depth": 30, "height": 120},
+      "base_price": 120000,
+      "description": "바닥에서 천장까지 연결하는 기둥형 스크레처",
+      "usage": "오르내리기, 발톱 관리"
+    },
+    {
+      "id": "scratcher_tower_180",
+      "name": "스크레처 타워 180cm",
+      "category": "scratcher",
+      "size": {"width": 30, "depth": 30, "height": 180},
+      "base_price": 150000,
+      "description": "바닥에서 천장까지 연결하는 높은 기둥형 스크레처",
+      "usage": "오르내리기, 발톱 관리"
+    },
+    {
+      "id": "cat_house_cube",
+      "name": "큐브 하우스",
+      "category": "house",
+      "size": {"width": 40, "depth": 40, "height": 40},
+      "base_price": 80000,
+      "description": "벽에 부착하는 숨숨집",
+      "usage": "은신처, 안정감 제공"
+    },
+    {
+      "id": "transparent_bridge",
+      "name": "투명 다리",
+      "category": "bridge",
+      "size": {"width": 60, "depth": 25, "height": 5},
+      "base_price": 90000,
+      "description": "투명 아크릴 소재의 다리",
+      "usage": "이동 동선, 관찰용"
+    }
+  ],
+  "installation_fee": {
+    "base": 100000,
+    "per_product": 5000,
+    "regional_surcharge": {
+      "서울": 0,
+      "경기": 20000,
+      "인천": 30000,
+      "그 외": 50000
+    }
+  },
+  "color_options": {
+    "wood": {
+      "name": "우드",
+      "price_multiplier": 1.0
+    },
+    "wood_transparent": {
+      "name": "우드+투명",
+      "price_multiplier": 1.0
+    },
+    "white": {
+      "name": "화이트",
+      "price_multiplier": 1.2
+    },
+    "white_transparent": {
+      "name": "화이트+투명",
+      "price_multiplier": 1.2
+    },
+    "pastel_brown": {
+      "name": "파스텔 브라운",
+      "price_multiplier": 1.1
+    },
+    "pastel_gray": {
+      "name": "파스텔 그레이",
+      "price_multiplier": 1.1
+    },
+    "pastel_ivory": {
+      "name": "파스텔 아이보리",
+      "price_multiplier": 1.1
+    },
+    "pastel_pink": {
+      "name": "파스텔 핑크",
+      "price_multiplier": 1.1
+    }
+  },
+  "recommended_configurations": {
+    "1_cat_basic": {
+      "cat_count": 1,
+      "products": [
+        {"id": "wall_walker_30", "quantity": 6},
+        {"id": "ceiling_walker_60", "quantity": 2},
+        {"id": "rest_spot_circle", "quantity": 2},
+        {"id": "scratcher_tower_120", "quantity": 1}
+      ],
+      "estimated_price_range": [600000, 800000]
+    },
+    "2_cats_standard": {
+      "cat_count": 2,
+      "products": [
+        {"id": "wall_walker_30", "quantity": 10},
+        {"id": "wall_walker_40", "quantity": 4},
+        {"id": "ceiling_walker_80", "quantity": 3},
+        {"id": "rest_spot_circle", "quantity": 3},
+        {"id": "cat_house_cube", "quantity": 2},
+        {"id": "scratcher_tower_180", "quantity": 1}
+      ],
+      "estimated_price_range": [1000000, 1400000]
+    },
+    "3_plus_cats_premium": {
+      "cat_count": 3,
+      "products": [
+        {"id": "wall_walker_30", "quantity": 15},
+        {"id": "wall_walker_40", "quantity": 6},
+        {"id": "ceiling_walker_80", "quantity": 5},
+        {"id": "rest_spot_square", "quantity": 4},
+        {"id": "cat_house_cube", "quantity": 3},
+        {"id": "scratcher_tower_180", "quantity": 2},
+        {"id": "transparent_bridge", "quantity": 2}
+      ],
+      "estimated_price_range": [1800000, 2500000]
+    }
+  },
+  "design_rules": {
+    "wall_walker_spacing": {
+      "vertical": {"min": 30, "max": 40, "unit": "cm"},
+      "horizontal": {"min": 40, "max": 60, "unit": "cm"},
+      "description": "천천히 걸어 올라갈 수 있는 간격"
+    },
+    "minimum_walkers_to_ceiling": {
+      "healthy_cat": 7,
+      "senior_cat": 10,
+      "kitten": 6
+    },
+    "multi_cat_rules": {
+      "2_cats": "오르내리는 곳이 최소 2곳 이상",
+      "3_plus_cats": "독립적인 동선 2개 이상 필요",
+      "incompatible_cats": "시야가 닿지 않는 별도 영역 구성"
+    },
+    "safety_considerations": {
+      "heavy_cats": "5kg 이상: 발판 간격 줄이기, 안전카펫 추가",
+      "senior_cats": "7세 이상: 발판 간격 최소화, 미끄럼 방지",
+      "breed_specific": {
+        "먼치킨": "짧은 다리 고려, 낮은 간격",
+        "메인쿤": "대형묘, 넓은 발판 필요",
+        "스코티시폴드": "관절 문제 고려, 완만한 경사"
+      }
+    }
+  }
+}

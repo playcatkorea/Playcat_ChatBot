@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="플레이캣 - 고양이 행동풍부화 전문 챗봇">
+    <meta name="keywords" content="플레이캣, 고양이, 캣타워, 캣워커, 행동풍부화">
+    <meta name="theme-color" content="#FF6B6B">
+    <title>플레이캣 챗봇 | 고양이 행동풍부화 전문 상담</title>
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/static/css/styles.css" as="style">
+    <link rel="preload" href="/static/js/chat.js" as="script">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐱</text></svg>">
+</head>
+<body>
+    <!-- 로딩 오버레이 -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p>처리 중...</p>
+    </div>
+
+    <!-- 메인 컨테이너 -->
+    <div class="container">
+        <!-- 채팅 컨테이너 -->
+        <div class="chat-container">
+            <!-- 헤더 -->
+            <div class="chat-header">
+                <div class="header-left">
+                    <div class="logo">
+                        <span class="logo-icon">🐱</span>
+                        <span class="logo-text">플레이캣</span>
+                    </div>
+                    <div class="chat-status">
+                        <span class="status-dot"></span>
+                        <span>연결 중...</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button id="themeToggle" class="icon-btn" aria-label="테마 전환">
+                        🌙
+                    </button>
+                </div>
+            </div>
+
+            <!-- 메시지 영역 -->
+            <div id="messages" class="messages">
+                <!-- 환영 메시지 (초기 로딩 시 표시) -->
+                <div class="welcome-message">
+                    <div class="welcome-icon">🐱</div>
+                    <h2>플레이캣 챗봇에 오신 것을 환영합니다!</h2>
+                    <p>고양이 행동풍부화 전문 가구에 대해 무엇이든 물어보세요.</p>
+                </div>
+            </div>
+
+            <!-- 입력 영역 -->
+            <div class="input-container">
+                <button id="attachBtn" class="icon-btn" aria-label="파일 첨부">
+                    📎
+                </button>
+                <textarea
+                    id="messageInput"
+                    class="message-input"
+                    placeholder="메시지를 입력하세요..."
+                    rows="1"
+                    maxlength="2000"
+                    aria-label="메시지 입력"
+                ></textarea>
+                <button id="sendBtn" class="send-btn" aria-label="전송">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- 푸터 정보 -->
+        <div class="footer">
+            <p>
+                <a href="https://www.playcat.kr" target="_blank" rel="noopener">플레이캣 홈페이지</a>
+                <span class="separator">•</span>
+                <span>고양이 행동풍부화 전문</span>
+                <span class="separator">•</span>
+                <span id="statusText">준비 중...</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
