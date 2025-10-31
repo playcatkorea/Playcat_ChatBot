@@ -32,6 +32,9 @@ python-dateutil>=2.9.0
 # Rate Limiting (DDoS 방어)
 slowapi>=0.1.9
 
+# WebSocket (ComfyUI 통신)
+websocket-client>=1.8.0
+
 # ==================== Phase 2: AI 이미지/영상 생성 (선택) ====================
 # 아래 패키지는 Phase 2 고급 기능 사용 시에만 설치
 
